@@ -1,0 +1,58 @@
+/////////////////////HEADER
+
+class Header
+
+{
+  gameType = Coop;
+  minPlayers = 1;
+  maxPlayers = 33;
+};
+
+
+/////////////////////LOAD SCREEN
+
+onLoadName = "Vozmezdiye--Vergeltung";
+onLoadMission = "";
+author = "McDiod für Gruppe Adler";
+loadScreen = "logo.paa";
+
+
+/////////////////////MISC
+
+enableDebugConsole = 1;
+disabledAI = 0;
+respawn = 3;
+
+
+/////////////////////CFG
+
+class CfgRemoteExec
+{        
+       // List of script functions allowed to be sent from client via remoteExec
+       class Functions
+       {
+               // State of remoteExec: 0-turned off, 1-turned on, taking whitelist into account, 2-turned on, however, ignoring whitelists (default because of backward compatibility)
+               mode = 2;
+               // Ability to send jip messages: 0-disabled, 1-enabled (default)
+               jip = 1;
+
+       };        
+       // List of script commands allowed to be sent from client via remoteExec
+       class Commands
+       {
+              /*your commands here*/
+              class execVM { allowedTargets=0;} // can target anyone, sending jip is turned off (overrides settings in the Commands class)
+	};
+};
+
+class CfgNotifications
+{
+	class Hinweis
+	{
+		title = "Hinweis"; // Tile displayed as text on black background. Filled by arguments.
+		iconText = "!";
+		description = "%1";
+		color[] = {1,1,1,1}; // Icon and text color
+		duration = 10; // How many seconds will the notification be displayed
+	};
+};

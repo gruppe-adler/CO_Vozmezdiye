@@ -1,0 +1,41 @@
+_units = selectRandom [
+	[
+		'rhsusf_m1025_w',
+		'rhsusf_army_ucp_grenadier',
+		'rhsusf_army_ucp_riflemanat',
+		'rhsusf_army_ucp_autorifleman'
+	],
+	[
+		'rhsusf_m998_w_4dr_fulltop', 
+		'rhsusf_army_ucp_grenadier',
+		'rhsusf_army_ucp_riflemanat',
+		'rhsusf_army_ucp_autorifleman'
+	],
+	[
+		'rhsusf_m998_w_2dr_fulltop',
+		'rhsusf_army_ocp_teamleader',
+		'rhsusf_army_ocp_autorifleman',
+		'rhsusf_army_ocp_grenadier',
+		'rhsusf_army_ucp_medic', 
+		'rhsusf_army_ucp_marksman',
+		'rhsusf_army_ucp_machinegunnera'
+	],
+	[
+		'rhsusf_m998_w_4dr_halftop', 
+		'rhsusf_army_ocp_teamleader',
+		'rhsusf_army_ocp_autorifleman',
+		'rhsusf_army_ocp_grenadier',
+		'rhsusf_army_ucp_medic', 
+		'rhsusf_army_ucp_marksman'
+	],
+	[
+		'rhsusf_m998_w_4dr',
+		'rhsusf_army_ocp_teamleader',
+		'rhsusf_army_ocp_autorifleman',
+		'rhsusf_army_ocp_grenadier',
+		'rhsusf_army_ucp_medic', 
+		'rhsusf_army_ucp_marksman'
+	]
+];
+
+_units

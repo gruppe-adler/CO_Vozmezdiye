@@ -1,0 +1,90 @@
+//////////////////////////////////////////////////BRIEFING=================================================
+
+Situation
+Altis ist zweigeteilt. Der Westen ist von russischen Kräften besetzt, den Osten kontrolliert die NATO. Vor zwei Wochen war ein Waffenstillstand ausgehandelt worden. Vor 3 Tagen warf ein amerikanischer Helikopter über russischem Gebiet einen Trupp Fallschirmspringer ab, der zwei russische Basen infiltrierte, mehrere russische Soldaten tötete und ein wichtiges Fahrzeug stahl.
+<br /><br />Die NATO meint vielleicht uns zum Narren halten zu können, aber wir werden es uns nicht bieten lassen! Der Waffenstillstand wurde gebrochen, russische Soldaten sind tot, unsere Ehre ist befleckt. Es ist Zeit für den Vergeltungsschlag.
+
+
+Mission
+Ihnen stehen 5 Mehrfachraketenwerfersysteme zur Verfügung. Geleiten Sie sie zur <marker name='dropoff1'>Feuerposition bei Galati</marker>. Lassen Sie die markierten Ziele beschießen, rücken Sie mit Ihren Truppen nach, und zerstören Sie so viel feindliches Material wie Sie finden können. Die NATO glaubt weiterhin an den Waffenstillstand. Nutzen Sie das Überraschungsmoment. Bewegen Sie sich schnell.
+<br /><br />Sie starten Ihren Einsatz beim <marker name='opf_airport'>Kyra Nera Flughafen</marker>.
+<br />Die BM-21, sowie Ihr Schützenpanzer befinden sich in der <marker name='opf_fob'>FOB Galati</marker>.
+<br /><br />Ihre Ziele sind:
+<br />Die FOB bei <marker name='target_5'>128166</marker>
+<br />Die Fabrik bei <marker name='target_4'>126163</marker>
+<br />Jegliche Präsenz in <marker name='target_3'>Lakka</marker>
+<br />Der Grenzposten bei <marker name='target_3_1'>120158</marker>
+<br /><br />Wir beschießen zusätzlich den nahegelegenen <marker name='target_1'>Flughafen</marker>, um Ihnen Zeit zu verschaffen.
+<br /><br />Zerstören Sie:
+<br />Gebäude
+<br />Fahrzeuge
+<br />Waffen und Munition
+<br />Infrastruktur
+
+
+BMP Only
+Ihnen stehen 5 Mehrfachraketenwerfersysteme zur Verfügung. Geleiten Sie sie zur <marker name='dropoff1'>Feuerposition bei Galati</marker>. Lassen Sie die markierten Ziele beschießen, rücken Sie mit Ihren Truppen nach, und zerstören Sie so viel feindliches Material wie Sie finden können. Die NATO glaubt weiterhin an den Waffenstillstand. Nutzen Sie das Überraschungsmoment. Bewegen Sie sich schnell.
+<br />Ihr Fahrer und Schütze sind ausgebildete Mechaniker und können den BMP im Notfall reparieren.
+<br /><br />Sie starten Ihren Einsatz bei der <marker name='fob'>FOB Galati</marker>.
+<br />Die restlichen, teilnehmenden Einheiten befinden sich beim <marker name='opf_airport'>Kyra Nera Flughafen</marker>.
+<br /><br />Ihre Ziele sind:
+<br />Die FOB bei <marker name='target_5'>128166</marker>
+<br />Die Fabrik bei <marker name='target_4'>126163</marker>
+<br />Jegliche Präsenz in <marker name='target_3'>Lakka</marker>
+<br />Der Grenzposten bei <marker name='target_3_1'>120158</marker>
+<br /><br />Wir beschießen zusätzlich den nahegelegenen <marker name='target_1'>Flughafen</marker>, um Ihnen Zeit zu verschaffen.
+<br /><br />Zerstören Sie:
+<br />Gebäude
+<br />Fahrzeuge
+<br />Waffen und Munition
+<br />Infrastruktur
+
+
+//////////////////////////////////////////////////TASKS====================================================
+
+//BMP=============================================
+
+Ausrüsten
+Nehmen Sie an der nächsten Arsenal Kiste Ihre Ausrüstung auf.
+
+
+Abfahrt befehlen
+Sie haben das Kommando über die BM-21 Grad Trucks. Befehlen Sie ihnen nach Rücksprache mit Ihrer Führung, auszurücken. Die Trucks werden geschlossen zu ihrer Feuerposition östlich von Galati fahren. Achtung! Sie können den Konvoy nicht mehr stoppen, sobald er sich in Bewegung gesetzt hat.
+<br /><br />Befehl geben über ACE-Selbstinteraktion:<br />Ausrüstung -> Funkgerät
+
+
+BMP-2 bemannen
+Bemannen Sie Ihren Schützenpanzer, sobald Sie bereit sind.
+
+
+Feuerbefehl geben
+Sie haben weiterhin das Kommando über die BM-21. Geben Sie nach Rücksprache mit Ihrer Führung den BM-21 den Feuerbefehl. Warten Sie in jedem Fall bis die Trucks in Position sind und nicht mehr fahren. Die Trucks werden sich nach Ausführung des Befehls von Ihrem Kommando trennen und selbstständig zur FOB Galati zurückfahren. 
+<br /><br />Befehl geben über ACE-Selbstinteraktion:<br />Ausrüstung -> Funkgerät
+
+
+
+//REST============================================
+
+Briefing geben
+Gruppenführer, Sie können im HQ Gebäude Ihre Männer briefen.
+
+
+Ausrüsten
+Geben Sie Ihren Männern den Befehl an der nächsten Arsenalkiste ihre Ausrüstung aufzunehmen, sobald Sie bereit sind.
+
+
+Aufsitzen
+Geben Sie Ihren Männern den Befehl aufzusitzen, sobald Sie bereit sind. Ihnen stehen vier GAZ-233114 zur Verfügung.
+
+
+Treffen mit SPz
+Treffen Sie sich mit Ihrem Schützenpanzer. Dem Kommandanten unterstehen die BM-21 Grad. Koordinieren Sie mit ihm den Konvoy zur Feuerposition bei Galati.
+
+Konvoy nach Galati
+Geleiten Sie den Konvoy nach Galati. Die BM-21 unterstehen weiterhin dem SPz Kommandanten. Er kann den BM-21 den Feuerbefehl erteilen, sobald sie in Position sind.
+
+Angriff
+Greifen Sie die markierten Positionen an. Beseitigen Sie alle Überlebenden und zerstören Sie alle wichtigen Gebäude und Ausrüstung, die Sie finden können. Achtung! Vom nahe gelegenen NATO Flughafen könnten schwere Einheiten nachrücken. Beenden Sie den Einsatz nach eigenem Ermessen und ziehen Sie sich zur FOB Galati zurück.
+
+Rückzug
+Ziehen Sie sich zur FOB Galati zurück und halten Sie in der Halle die Missions Nachbesprechung.
